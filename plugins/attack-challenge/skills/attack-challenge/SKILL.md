@@ -1,9 +1,9 @@
 ---
-name: red-teaming-review
-description: Runs a two-round adversarial review of any output — plans, designs, specs, architecture decisions, feature proposals — attacking from six lenses and synthesizing the strongest version across all rounds for the user to approve. Use after finishing a significant, hard-to-reverse deliverable, or when the user says "red team this", "attack my plan", or "find weaknesses" before acting on it.
+name: attack-challenge
+description: Runs a two-round adversarial review of any output — plans, designs, specs, architecture decisions, feature proposals — attacking from six lenses and synthesizing the strongest version across all rounds for the user to approve. Use after finishing a significant, hard-to-reverse deliverable, or when the user says "attack my plan", "find weaknesses", or "tear this apart" before acting on it.
 ---
 
-# Red-Teaming Review
+# Attack Challenge
 
 ## Overview
 
