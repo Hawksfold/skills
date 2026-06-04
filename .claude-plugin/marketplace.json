@@ -9,6 +9,11 @@
       "name": "challenge",
       "source": "./plugins/challenge",
       "description": "Stress-test a plan, decision, or argument with a calibrated, balanced counter-view: surfaces the load-bearing assumption, triages objections by severity, and ends with the cheapest test to settle the question."
+    },
+    {
+      "name": "red-teaming-review",
+      "source": "./plugins/red-teaming-review",
+      "description": "Two-round adversarial review of any output: attacks from six lenses with severity and confidence triage, tracks every finding's disposition, persists deferrals, and synthesizes the strongest version for the user to approve."
     }
   ]
 }
