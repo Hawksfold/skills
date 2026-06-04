@@ -1,0 +1,6 @@
+{
+  "name": "challenge",
+  "description": "Stress-test a plan, decision, or argument with a calibrated, balanced counter-view.",
+  "version": "0.3.0",
+  "keywords": ["challenge", "red-team", "decision", "critique", "devils-advocate", "planning"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hawksfold-skills",
+  "owner": {
+    "name": "Hawksfold"
+  },
+  "description": "A growing collection of Claude Code skills.",
+  "plugins": [
+    {
+      "name": "challenge",
+      "source": "./plugins/challenge",
+      "description": "Stress-test a plan, decision, or argument with a calibrated, balanced counter-view: surfaces the load-bearing assumption, triages objections by severity, and ends with the cheapest test to settle the question."
+    }
+  ]
+}
