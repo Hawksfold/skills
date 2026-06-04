@@ -1,0 +1,6 @@
+{
+  "name": "red-teaming-review",
+  "description": "Two-round adversarial review of any output: attacks from six lenses with severity and confidence triage, tracks every finding's disposition, persists deferrals, and synthesizes the strongest version for the user to approve.",
+  "version": "0.1.0",
+  "keywords": ["red-team", "review", "adversarial", "critique", "stress-test", "synthesis"]
+}
