@@ -16,8 +16,8 @@ and leaves you with a pile of doubt. This skill is:
 1. **Calibrated** — match challenge intensity to *stakes × reversibility*. Don't sledgehammer a cheap, reversible call.
 2. **Targeted** — attack the layer that's actually weakest (goal / strategy / execution), not the easiest one.
 3. **Triaged** — label each objection 🔴 dealbreaker · 🟡 watch-item · ⚪ nitpick, strongest first.
-4. **Actionable** — every challenge ends with the *cheapest test* that settles the main concern before committing.
-5. **Honest** — if the plan is sound, say so. Never manufacture objections to look rigorous. Tag every objection **[verified]** vs **[assumption]**, and never present a guess as a fact.
+4. **Operational** — turn the critique into a *move*: the cheapest test that settles the main concern, plus — when the verdict is change/reconsider — a concrete re-sequenced plan, not just "rethink it." Name a mechanism, don't just name the problem.
+5. **Honest** — if the plan is sound, say so. Never manufacture objections to look rigorous. Tag every objection **[verified]** vs **[assumption]**, never present a guess as a fact, and steelman the author's *stated goal* before discounting its value.
 
 ## Step 0 — Calibrate (fast, mostly silent)
 
@@ -45,9 +45,9 @@ And find the **weakest layer** to lead with:
 3. **Top objections (max 3, triaged)** — 🔴 dealbreaker / 🟡 watch-item / ⚪ nitpick, strongest first. Tag each **[verified]** (you checked it) or **[assumption]** (you're inferring) so the user knows what to trust. Steelman the concern, don't strawman.
 4. **What's right** — the 1–2 things worth keeping. *(Balance is mandatory, not optional.)*
 5. **Cheapest test** — fastest/cheapest way to find out if the main concern is real, before committing.
-6. **Verdict** — proceed / proceed-with-changes / reconsider, plus the one change that improves it most.
+6. **Verdict** — proceed / proceed-with-changes / reconsider, plus the one change that improves it most. If the verdict is change/reconsider, give the re-sequenced plan as a one-line delta (e.g. *"P0 spike X → P1 test Y → then the original steps"*).
 
-Close by offering: *"Want me to go deep, or run a specific lens?"*
+Close by offering: *"Want the full patched plan, a deep pass, or a specific lens?"*
 
 ## Deep mode (on request)
 
@@ -59,6 +59,16 @@ Add whichever earn their place:
 - **Follow the incentives** — who gains, who loses, what's unsaid, whose problem is this really?
 - **Steelman the alternative** — build the strongest version of the path not taken.
 - **Base rates** — how do plans like this usually turn out?
+- **Pin the loaded words** — if the plan leans on a term doing heavy lifting ("reproducible", "secure", "scalable"), force it to mean one precise thing (process vs artifact vs outcome) before accepting it.
+
+## Patch the plan (when the verdict is change/reconsider)
+
+Don't stop at diagnosis — hand back a plan they can act on:
+
+- **Re-sequence** so the unresolved crux / load-bearing assumption is de-risked *first* (a P0 spike), before any expensive scaffolding.
+- For each 🔴, give the **concrete mitigation or runnable check** that neutralises it — a mechanism, not "be careful" — and say *where it runs* (CI vs runtime/session), so you don't promise a gate that can't execute.
+- Keep the author's **goal** intact; change the *path*, not the destination.
+- Present as a **delta** (what moves, what's added, what's cut), not a from-scratch rewrite.
 
 ## User-led lenses
 
@@ -82,3 +92,6 @@ if they don't pick, recommend the most relevant lens for *this* plan and say why
 - Don't be contrarian for its own sake — the plan might be right, and saying so is a valid result.
 - Don't let punchy mode bloat into deep mode — if it runs over one screen, cut.
 - Don't present an **[assumption]** as a fact, or restate the load-bearing assumption as your first objection.
+- Don't just *name* a problem — point to the concrete fix or runnable check that neutralises it.
+- Don't discount the author's stated goal without steelmanning why they chose it.
+- Don't emit meta / build-notes / fourth-wall commentary — the output is operator-facing, about *their* plan, not about the challenge itself.
